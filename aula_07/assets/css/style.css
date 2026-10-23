@@ -1,0 +1,58 @@
+body {
+  background: #f5f6f6;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+.lista-produtos {
+  display: flex;
+
+}
+.Produto {
+  background-color: #ffffff;
+  width: 400px;
+  padding: 15px;
+  border: 1px solid #bdcaca;
+  border-radius: 10px;
+  margin: 5px;
+  color: black;
+}
+.Produto h4 {
+  font-size: 25px;
+  color: #004587;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.detalhes-produto {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.info {
+  align-items: center;
+  gap: 10px;
+}
+.Produto img {
+  height: 150px;
+  cursor: pointer;
+  border-radius: 10px;
+  align-items: start;
+}
+.info p {
+  font-size: 8px;
+  color: #494541;
+}
+.Produto p {
+  font-size: 16px;
+  line-height: 0.9;
+  color: #414649;
+}
+.Produto h3 {
+  color: #393340;
+  font-style: bold;
+}
+.Produto button {
+  border: none;
+  background-color: #004587;
+  color: #f5f6f6;
+  border-radius: 5px;
+}
