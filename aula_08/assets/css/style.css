@@ -1,0 +1,52 @@
+body {
+  background-color: lightgrey;
+  font-family: "Old Standard TT", serif;
+  margin: 10px;
+  text-align: justify;
+}
+main > h1 {
+  text-align: center;
+}
+.Card-Principal {
+  margin-top: 30px;
+  display: flex;
+  padding-bottom: 10px;
+  gap: 10px;
+}
+.Ponto {
+  border: 1px;
+  border-color: black;
+  border-radius: 20px;
+  width: 500px;
+  background-color: #fffefe;
+  padding: 5px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.Ponto h4 {
+  text-align: center;
+}
+.Ponto img {
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+}
+.Ponto p {
+  text-align: justify;
+}
+
+.Ponto button {
+  border: none;
+  border-radius: 5px;
+  background-color: #00aeee;
+  color: #ffffff;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  align-content: end;
+}
+.Ponto button:hover {
+  cursor: pointer;
+  background-color: #04698d;
+}
