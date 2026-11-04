@@ -1,0 +1,67 @@
+body {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #f3f4f6;
+}
+header img {
+  width: 100%;
+  height: auto;
+}
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+h3 {
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #000000;
+}
+.form-cadastro {
+  gap: 10px;
+  justify-content: space-around;
+  color: #000000;
+  max-width: 60%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+input,
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+}
+.uma-coluna {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.uma-coluna label {
+  width: 100%;
+}
+
+.duas-colunas {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
