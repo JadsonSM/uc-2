@@ -1,0 +1,44 @@
+.linha{
+display: flex;
+gap: 8px;
+justify-content: center;
+align-items: center;
+height: 900px;
+}
+.card {
+  background-color: #dceefd;
+  border-radius: 10px;
+  border: 1px solid #969696;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+.card h3 {
+  font-size: 30px;
+  color: rgb(3, 15, 49);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card img {
+  border-radius: 20px;
+  max-width: 100%;
+}
+.card figure{
+  margin: 0;
+}
+.card figcaption{
+  margin-bottom: 10px;
+  font-style: italic;
+  color: rgb(6, 58, 41);
+}
+.card button {
+  background: #03365a;
+  border-radius: 5px;
+  border: none;
+  padding: 5px ;
+  color: antiquewhite;
+  cursor:pointer;
+  
+ }
+.card button:hover{
+  background: aqua;
+}
